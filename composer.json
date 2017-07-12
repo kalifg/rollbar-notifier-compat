@@ -1,0 +1,22 @@
+{
+  "name": "kalifg/rollbar-notifier-compat",
+  "description": "RollbarNotifier object compatibility layer for Rollbar 1.x",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Michael Dwyer",
+      "email": "mdwyer@michaelmdwyer.com"
+    }
+  ],
+  "require": {
+    "rollbar/rollbar": "~1.0"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "^3.4"
+  },
+  "autoload": {
+    "classmap": [
+      "."
+    ]
+  }
+}
