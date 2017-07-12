@@ -8,12 +8,16 @@
       "email": "mdwyer@michaelmdwyer.com"
     }
   ],
+  "version": "0.1",
   "require": {
     "rollbar/rollbar": "~1.0"
   },
+  "require-dev": {
+    "phpspec/phpspec": "^3.4"
+  },
   "autoload": {
-    "psr-4": {
-      "KalifG\\RollbarNotifier\\": ""
-    }
+    "classmap": [
+      "."
+    ]
   }
 }
